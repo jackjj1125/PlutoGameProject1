@@ -1,0 +1,56 @@
+MeetingTA_Feb4
+-We showed our project 1 milestone and asked questions regarding the development phase(part 5). We got everything checked and it looks good!
+
+MeetingTA_Feb11
+-April 11th last day for project. April 12th and onwards we will present project in class.
+-Second step in project is working on Project Milestone 2. Finalizing components. Create rough UI buttons. 
+-Work on critical components like setting up datatbase, and connecting front end to back end.
+-Add Jira stories because grading will be based off of that.
+
+MeetingTA_Feb18
+-We need a readme. Md file in our project milestone 2 including our project title, description, members, and architecture we will be using. 
+-If we have any code done for the project we must include the code and a comment on what system/ language we are using on that specific code.
+-Make sure we are only adding stuff to GitHub that is necessary for each project milestone
+-Keep Our github folder organized so she can find things easily 
+-If we have any questions we can email her and she can get back to us as soon as she can
+
+MeetingTA_Feb25
+-update: project milestone 3 due on march 8th.
+-next meeting: Looking for demos and database components and any other features
+  -database component: during monday/tuesday lecture professors instructing on how to set up database. Hope to see mySQL mongoDB or Cassandra. 
+  -Have it downloaded and some queries
+  -changed meeting time to 5:15 
+
+MeetingTA_Mar4
+-Presented the demo
+-milestone pdf due on march 8th
+
+MeetingTA_Mar11
+-Look at Project 4 milestone. Use canvas resources to generate architecure diagram
+-Add tag using co authored by tag in github if you are working with soemone else 
+-Link: https://docs.github.com/en/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors#:~:text=On%20the%20next%20line%20of,authored%2Dby%3A%20commit%20trailer
+-With this, the contribution will go to both people
+-Does not matter number of commits, but what is being comitted.
+-For the architecture diagram, the components should be the final ones such as MySql and Java as backend you can't change it
+
+MeetingTA_Mar18
+-Lab 7 duedate is postponed
+-Use this https://dbdiagram.io/home for the database diagram
+-First get the game working and then come back to aligning the nav bar and the login/registration page
+
+MeetingTA_April1
+-connect back end code with database
+-add insert statement when user adds a level
+-project presentation slots are out: sign up for slot
+-project milestone 6 released
+-trial demo next week
+-before actual presentation, have code in 2 or three systems in case one persons host is not working
+-screen recording explaining the game as another backup
+-rehearse before you present 
+-should only take 10 minutes followed by a 5 minute q&a session
+-can have powerpoint slide for presentation with components, idea, followed by a demo(have a slide DEMO)
+-tell challenges you faced working on project
+-individual project requirements released next friday(9th)
+
+MeetingTA_April8
+-sign up for presentations

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Pluto Canvas</title>
+    
+    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Game</title>
+
+    <!--
+    <link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
+    -->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="../css/game.css" rel="stylesheet">
+
+</head>
+
+<!--
+<body onload="startGame()">
+-->
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark topnav">
+      <a class="navbar-brand" href="home"><img class="rounded-circle" src="../img/Pluto.jpg" alt="" width="30" height="30"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="home">Home</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="game">Game<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_the_team">About the Team</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item active">
+                <a class="nav-link btn btn-primary" href="../html/login_Pluto.html">Login</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+
+    </div>
+    <div class="container canvas">
+      <div class="row">
+        <a class="btn btn-lg btn-primary" onclick = "startGame(0)">Easy</a>
+        <a class="btn btn-lg btn-primary" onclick = "startGame(2)">Medium</a>
+          
+        <a class="btn btn-lg btn-primary" onclick = "startGame(4)">Hard</a>
+      </div>
+
+      <div id="canvas">
+      </div>
+
+      <div class="Buttons row">
+        <button type="button" class="buttonPause" onclick="togglePause()">Pause</button>
+        <button type="button" class="buttonInertia" onclick="toggleRotationalInertia()">Toggle Inertia</button>
+        <button class="buttonReset" onclick= "resetLevel()">Reset lvl</button>
+        <button class="buttonPrev" onclick = "prevLevel()"><span>&#8592</span> Previous</button>
+        <button class="buttonNext" onclick = "nextLevel()">Next <span>&#8594</span></button>
+        <!--We will need to show these when Users create levels \/ -->
+        <button type="button" class="buttonEDIT" onclick="selectPlacementType(0)">Place Walls</button>
+        <button type="button" class="buttonEDIT" onclick="selectPlacementType(1)">Place Attractor</button>
+        <button class="buttonEDIT" onclick="selectPlacementType(2)">Relocate Player</button>
+        <button class="buttonEDIT" onclick="selectPlacementType(3)">Place Landing Pad</button>
+      </div>
+    </div>
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="../js/game.js"></script>
+    
+
+</body>
+
+</html>

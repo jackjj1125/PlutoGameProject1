@@ -1,0 +1,46 @@
+canvas {
+    border: 1px solid black;
+    background-color: #dedede;
+}
+.buttonInertia 
+{
+    background-color: #8acefc;
+} 
+.buttonPause{
+    background-color: #ffffff;
+} 
+.buttonEDIT {
+    background-color:black;
+    color:white;
+} 
+.buttonNext {
+    background-color: #a8fc63;
+}
+.buttonPrev {
+    background-color: #ff9090;
+}
+.buttonReset {
+    background-color: #fae481;
+}
+
+
+body
+{
+    color: white;
+    background-color: black;
+}
+
+img
+{
+    padding: 1%;
+}
+
+.nav-item:hover
+{
+    background-color: gray;
+}
+
+.rounded-circle
+{
+    border-radius: 50%;
+}

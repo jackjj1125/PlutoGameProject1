@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Login Page Pluto</title>
+
+	<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+    <style>
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="../css/signin.css" rel="stylesheet">
+	<link href="../css/my_style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="home"><img class="rounded-circle" src="../img/Pluto.jpg" alt="" width="30" height="30">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+      <a class="nav-link" href="home">Home</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="game">Game</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="about_the_team">About the Team<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item active">
+        <a class="nav-link btn btn-primary disabled" href="login_Pluto">Login</a>
+      </li>
+  </ul>
+    </div>
+  </nav>
+  <form action="/login_Pluto" method="POST">
+      <h1>Return to Pluto</h1>
+      <h6>"Plan-it to Planet"</h6>
+  	  <img class="rounded-circle" src="../img/Pluto.jpg" alt="" width="200" height="200">
+  	  <h1 class="h3">Please sign in:</h1>
+  	  <label for="inputEmail" class="sr-only">Email address</label>
+  	  <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address or Username" required autofocus>
+  	  <label for="inputPassword" class="sr-only">Password</label>
+  	  <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+  	  <div class="checkbox mb-3"> 
+    		<label>
+    		  <input type="checkbox" value="remember-me"> Remember me |</label>
+    		</label>
+  			<a href="" >Forgot Password?</a>
+  	  </div>
+      <input type="submit" value="submit" class="btn btn-primary btn-block">
+      <a class="btn btn-lg btn-primary" href="../register" >Register</a>
+      <a class="btn btn-lg btn-primary" href="../game">Play As Guest</a>
+  	</form> 
+    <div class="container-lg" style="margin-top: 2%;">        
+      <% if (message) { %>         
+       <div class="alert alert-danger"><%- message %></div>       
+     <% } %></div>
+
+  	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+

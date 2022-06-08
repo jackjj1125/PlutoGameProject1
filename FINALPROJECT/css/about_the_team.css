@@ -1,0 +1,40 @@
+body
+{
+	color: white;
+	background-color: black;
+}
+
+img
+{
+	padding: 1%;
+}
+.team_image
+{
+	width: 70%;
+}
+
+.team_page
+{
+	margin-left: 20%;
+	margin-top: 8%;
+	width: 70%;
+	border: transparent;
+}
+
+
+.nav-item:hover
+{
+	background-color: gray;
+}
+
+.rounded-circle
+{
+	border-radius: 50%;
+}
+
+.card
+{
+	background-color: lightblue;
+}
+
+

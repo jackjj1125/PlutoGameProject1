@@ -1,0 +1,17 @@
+body
+{
+	text-align: center;
+	margin: auto;
+	color: white;
+	background-color: black;
+}
+
+.login:hover
+{
+	background-color: gray;
+}
+
+.nav-item:hover
+{
+	background-color: gray;
+}
